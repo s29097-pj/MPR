@@ -2,8 +2,6 @@
 import java.util.*;
 import java.util.stream.Collectors;
 
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
         Person person = null;
@@ -12,12 +10,6 @@ public class Main {
         } catch (InvalidAgeExceptation e) {
             System.out.println("Złapano wyjątek: " +e.getMessage());
         }
-
-//        try {
-//            Person person2 = new Person("Adam", -5);
-//        } catch (InvalidAgeExceptation e) {
-//            System.out.println("Złapano wyjątek: " +e.getMessage());
-//        }
 
         try{
             person.setAge(-10);
@@ -132,10 +124,5 @@ public class Main {
         }else {
             System.out.println("Brak danych dotyczących wieku.");
         }
-
-
-
-
-
     }
 }
